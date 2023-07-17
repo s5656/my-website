@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sumit Chavan</title>
+  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuUcDQjV-1MoNok1viFzzLpzeehnRDOVLRAQ&usqp=CAU">
+  <link rel="stylesheet" href="home.css" />
+  
+</head>
+<body>
+    <div class="hero">
+        <nav>
+          <img src="https://static.vecteezy.com/system/resources/previews/022/483/537/non_2x/innovative-3d-engineer-with-robotics-parts-ideal-for-robotics-or-automation-related-concepts-transparent-background-free-png.png" class="logo" width="70" length="100"/>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Blog</a></li>
+            <li>
+              <a href="#" id="contact-link">Contact</a>
+              <div id="contact-details">
+                <p><strong>Email:</strong> sumitchavan5473@gmail.com</p>
+                <p><strong>Phone:</strong> +91 9130565651</p>
+              </div>
+            </li>
+          </ul>
+          <a href="https://drive.google.com/file/d/1AH-QO0ZFy0zIJaiVPOEWZ_cWuenlEkum/view?usp=sharing" class="btn">Resume</a>
+
+         <div class="social-links">
+            <a href="https://github.com/s5656?tab=repositories" class="social-link">
+                <img src="https://cdn-icons-png.flaticon.com/512/889/889192.png?w=740&t=st=1689576571~exp=1689577171~hmac=5f3fefd3e97e6b150069bdf4049e21f137d525db8f71d1113c73570352f985af">
+                <span class="social-title">GitHub</span>
+            </a>
+           
+            <a href="https://www.linkedin.com/in/sumit-chavan-82373a175" class="social-link">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png?w=740&t=st=1689576541~exp=1689577141~hmac=2d9f32eb10f689e6b010e27f420187cd20761f0b5fb4565f946c04cab55d598e">
+                <span class="social-title">LinkedIn</span>
+            </a>
+     
+            <a href="https://www.instagram.com/_sumit.07._/" class="social-link">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png?w=740&t=st=1689576688~exp=1689577288~hmac=2fb47b1d695329567c17dcc084d7a9d5b5c46a616614a37cda0a95c1f04a52d9">
+                <span class="social-title">Instagram</span>
+            </a>
+            
+            <a href="https://www.facebook.com/profile.php?id=100023931097141" class="social-link">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png?w=740&t=st=1689576509~exp=1689577109~hmac=57758f740b41894cd5092211937e8595341debef38d397017448ad9df940071c">
+                <span class="social-title">Facebook</span>
+            </a>
+</div>
+
+          
+          
+        </nav>
+    
+        <div class="content">
+          <span class="title">Software Engineer</span>
+          <h1><span>Sumit Chavan</span></h1>
+          <p>
+            <b>Hello, my name is Sumit Chavan.</b>
+            <br>
+            I completed my diploma from Shivaji Polytechnic College and also hold B.Tech from Symbiosis Skill and Professional University.
+            <br>
+            <br>
+            <b>Languages:</b> Java, Dart, Python, JavaScript
+            <br>
+            <b>Database:</b> MySQL
+            <br>
+            <b>IDE:</b> Eclipse, VS code, Intellij IDEA
+            <br>
+            <b>Tools:</b> Maven, Gradle, Git, Jenkins, Jira, Flutter, Appium
+            <br>
+            <b>API Tool:</b> Postman
+          </p>
+        </div>
+      </div>
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const contactLink = document.getElementById('contact-link');
+      const contactDetails = document.getElementById('contact-details');
+      let clickCount = 0;
+
+      // Show or hide contact details on click
+      contactLink.addEventListener('click', function(event) {
+        event.preventDefault();
+        clickCount++;
+
+        if (clickCount % 2 === 1) {
+          contactDetails.style.display = 'block';
+        } else {
+          contactDetails.style.display = 'none';
+        }
+      });
+    });
+  </script>
+</body>
+</html>
